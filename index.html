@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+  </head>
+  <body style="background-color: #F2F2F2; color:#111111" text-align="center">
+    <header>
+      <h2 style="text-align: center;">Aniket Nath</h2>
+      <p style="text-align: center;"><i> Developer | Learner | Creative Thinker</i></p>
+    </header>
+    <hr />
+    <br />
+    <table>
+      <tr>
+        <td>
+          <img src="profile.png" alt="Profile Picture" width="150" />
+        </td>
+        <td>
+          <h2>Personal Details</h2>
+          <p><strong>Name:</strong> Aniket Nath</p>
+          <p>
+            <strong>Email:</strong>
+            <i
+              ><a
+                href="https://mail.google.com/mail/?view=cm&to=nathaniket679@gmail.com&su=Portfolio%20Contact&body=Hello%20Aniket!"
+                target="_blank"
+                style="text-decoration: none"
+              >
+                nathaniket679@gmail.com
+              </a></i
+            >
+          </p>
+          <p><strong>Phone:</strong> 917439335344</p>
+          <p>
+            <strong>LinkedIn</strong>
+            <i
+              ><a
+                href="https://www.linkedin.com/in/aniket-nath-4b3929293"
+                style="text-decoration: none"
+                >linkedIn Profile
+              </a></i
+            >
+          </p>
+          <p><strong>Location:</strong>Kolkata, West Bengal - 700105</p>
+        </td>
+      </tr>
+    </table>
+    <hr />
+
+    <div>
+      <h3><strong>Projects</strong></h3>
+      <ul>
+        <li>Software</li>
+        <ul>
+          <li>
+            <a
+              href="https://github.com/aniketnathh/colour-flipper/tree/main"
+              style="text-decoration: none"
+              >Colour-Flipper</a
+            >
+          </li>
+          <details>
+            <summary>Concept</summary>
+            <p>
+              The Color Flipper project generates a random hex color and applies
+              it as the background color when a button is clicked. A hex color
+              starts with a `#` followed by six characters chosen from the set
+              `0-9` and `A-F`, which represent valid hexadecimal digits. To
+              create this, a string containing all valid hex characters is
+              defined, and a variable is initialized with `#` to start building
+              the color. Using a loop that runs six times, one random character
+              is picked in each iteration by generating a random index with
+              `Math.floor(Math.random() * hex.length)` and appending the
+              corresponding character to the color string. Once all six
+              characters are added, the final hex color (like `#A3F2C1`) is
+              returned. This color is then used to update the page’s background
+              using `document.body.style.backgroundColor`. An event listener is
+              attached to a button so that this entire process is triggered each
+              time the button is clicked. .
+            </p>
+          </details>
+          <br />
+
+          <li>
+            <a
+              href="https://github.com/aniketnathh/digital-clock/tree/main"
+              style="text-decoration: none"
+              >Digital clock</a
+            >
+          </li>
+          <details>
+            <summary>Concept</summary>
+            <p>
+              The Digital Clock project displays the current time on the webpage
+              and updates it every second. It relies on the built-in `Date`
+              object in JavaScript, which provides the current system time. The
+              `Date` object methods like `getHours()`, `getMinutes()`, and
+              `getSeconds()` are used to extract individual components of the
+              time. To make the clock update in real-time, the `setInterval()`
+              function is used to repeatedly execute a function every 1000
+              milliseconds (1 second). Inside this function, the current time is
+              retrieved, formatted (optionally using `padStart()` to ensure
+              two-digit display like `09` instead of `9`), and then updated in
+              the DOM by modifying the `innerText` or `textContent` of a
+              specific element. This process continues indefinitely, keeping the
+              clock live and accurate.
+            </p>
+          </details>
+        </ul>
+        <li>Hardware</li>
+        <ul>
+          <li>Water purification project</li>
+          <details>
+            <summary>Description</summary>
+            <p>
+              In this project, I demonstrated a basic method of purifying
+              seawater through distillation. The process began with collecting
+              seawater, which was then placed in a pressure cooker to be boiled.
+              The use of a pressure cooker allowed for faster heating and
+              efficient generation of water vapor. As the seawater boiled, the
+              resulting steam was directed through a condenser. The condenser
+              cooled the vapor back into liquid form, effectively separating
+              pure water from salts and other impurities. The condensed water
+              collected at the end of the setup was clean and free from the
+              contaminants present in seawater, showcasing a simple yet
+              effective method of water purification using heat and
+              condensation.<br /><br />
+              <video
+                src="water_purification.mp4"
+                controls
+                width="500px"
+              ></video>
+            </p>
+          </details> <br>
+          <li>Led an amazing team to finals of SIH</li>
+          <details>
+            <summary>Description</summary>
+            I led a team that successfully advanced to the national level of
+            Smart India Hackathon (SIH) with our innovative project on
+            developing an Artificial Heart. Our model aimed to replicate the
+            natural pumping mechanism of the human heart and introduced an
+            intelligent system where the heartbeat could adapt dynamically based
+            on signals from the brain. The core concept was inspired by
+            Brain-Computer Interface (BCI) technology, allowing real-time
+            adjustments in heartbeat patterns according to neural activity — a
+            futuristic approach to making artificial organs more adaptive and
+            responsive. We began by clearing the intra-college round, where I
+            was responsible for team coordination, technical planning, and
+            aligning our presentation and prototype. Our model generated strong
+            interest for its blend of biomedical and AI-driven innovation. While
+            we qualified for the national round, we were unable to proceed to
+            the finals. The main challenges we faced were the lack of detailed
+            medical validation — specifically expert advice from cardiologists
+            and neurologists — and the high cost and limited accessibility of
+            reliable BCI hardware. Despite these limitations, the project was a
+            great learning experience in leadership, biomedical engineering
+            concepts, interdisciplinary collaboration, and navigating the
+            challenges of high-stakes innovation under time constraints.
+          </details> <br>
+          <li>Robo Wars</li>
+          <details>
+            <summary>Description</summary>
+            Won 3rd prize in college tech fest <br /><br />
+            <img src="IMG-20240310-WA0023.jpg" alt="img" width="200px" />
+            <img src="IMG-20240310-WA0046.jpg" alt="img" width="200px" />
+            <video src="Snapchat-2132452267.mp4" controls width="350px"></video>
+          </details>
+        </ul>
+      </ul>
+    </div>
+    <div>
+        <h2>
+            technologies used for Projects</h2>
+            <ul>
+                <li>Html</li>
+                <li>Css</li>
+                <li>Java Script</li>
+                <li>C++</li>
+                <li>Basics of JAVA</li>
+                <li>Knowledge in microcomputers(Arduino,raspberry) and many sensors</li>
+                <li>Team Management</li>
+            </ul>
+        
+    </div>
+    <hr />
+    <h3><strong>Education</strong></h3>
+    <div>
+      <ul>
+        <li>
+          Bachelors Of Technology(In Computer Science And Business System)
+          <ul>
+            <li>INSTITUTE OF ENGINEERING AND MANAGEMENT--------- 2024-2027</li>
+          </ul>
+        </li> <br>
+        <li>
+          Higher Secondary (In CBSE)
+          <ul>
+            <li>ESTEEM PUB. SCHOOL --------2020-2022</li>
+          </ul>
+        </li> <br>
+        <li>
+          Matric (In ICSE)
+          <ul>
+            <li>SISTER NIVEDITA ENG HIGH SCHOOL --------- 2008 - 2020</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <br />
+    <hr />
+    <div>
+      <h3><strong>Contact Me</strong></h3>
+      <form action="submit">
+        <label for="user">First name:</label>
+      <input type="text" placeholder="First Name"><br><br>
+      <label for="user">Last name:</label>
+      <input type="text"placeholder="Last Name"> <br><br>
+      <label for="user">Email:</label>
+      <input type="email"placeholder="Email Address"> <br><br>
+      <label for="user">Mobile Number:</label> 
+      <input type="number"placeholder="Mobile no."><br><br>
+      <label for="submit"></label>    
+    <label for="message" >Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="30" required placeholder="Feedback..."></textarea><br><br>
+      <input type="submit">
+      </form>
+    </div>
+    <hr>
+    <div><footer style=" padding: 20px; text-align: center;">
+  <p>&copy; 2025 Your Name. All rights reserved.</p>
+  <p>
+    <a href="#about" style="text-decoration: none">About</a> |
+    <a href="#contact" style="text-decoration: none">Contact</a> |
+    <a href="#privacy" style="text-decoration: none">Privacy Policy</a>
+  </p>
+</footer>
+</div>
+  </body>
+</html>
